@@ -1,0 +1,38 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 150;
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+}
+.container{
+    padding:20px 5px;
+    background: #86f;
+}
+.caja { 
+    background: #025;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    animation-name: desplazo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate-reverse;
+    /* animation-fill-mode:forwards; */
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes desplazo{
+    0%{
+        left: 0;
+        background: #000;
+    }
+    50%{
+        background: red;
+    }
+    100%{
+        left: 90%;
+        background-color: green;
+    }
+}

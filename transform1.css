@@ -1,0 +1,28 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 150;
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+}
+.container{
+    padding:20px 5px;
+    background: #86f;
+}
+.caja { 
+    background: #025;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    display: flex;
+    color: #fff;
+    transition: transform 1s;
+}
+.caja:hover{
+    transform:  scaleX(2) translateY(30px) skew(30deg); /*deg = es Grados/*esta propiedad trabaja con el eje x ,y */
+}
+b{
+    margin: auto;
+    font-size: 15px;
+    transform: skew(-30deg);
+}

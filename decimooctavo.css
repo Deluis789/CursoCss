@@ -1,0 +1,35 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 150;
+    padding: 0px;
+    margin: 0px;
+    font-size: 35px;
+}
+.container{
+    background: #444;
+    display: grid;
+    grid-template-rows: 
+        [p-line]
+        150px
+        [s-line]
+        150px
+        [t-line]
+        150px
+        [f-line];
+        grid-template-columns: 
+        [linea-izquierda]
+        250px
+        150px
+        150px
+        [find-de-main];
+    border:5px solid #000;
+}
+.grid-item{
+    border: 1px solid #000;
+    background: lightgray;
+}
+.grid-item:first-child{
+    background:blue;
+    grid-row: p-line / t-line;/*eso es para grid-template areaa con nombresss*/
+    grid-column: 1/4;/*esto es en modo numero contar la primera linea hasta la cuarta linea */
+}

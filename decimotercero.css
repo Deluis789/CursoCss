@@ -1,0 +1,30 @@
+*{
+    font-family: 'Lugrasimo', cursive;
+    font-weight: 150;
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+}
+
+.contenedor{
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.cajas{
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    min-width: 200px;
+    text-align: center;
+    height: 100px;
+    
+}
+.orange{
+    background: orange;
+    flex-grow: 1;
+}
+.green{
+    background: rgb(4, 94, 4);
+    flex-grow: 2;
+}

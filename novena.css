@@ -1,0 +1,28 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 150;
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+}
+.cajass{
+    width: 500px;
+    height: 500px;
+    border: 3px solid red;
+}
+.cajass img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: -3em;
+}
+/* OBJECT-FIT:FIL 
+----contain-->propiedad de tipo contenedor 
+----cover -->propiedad que se adpata ala resolucion la imagen
+-----none--->propiedad que agarra los valores por defecto de la imagen
+------scale-down---->propiedad que toma el valor mas peuqeño de todas las propiedades   
+OBJECT-POSITION
+SIRVE PARA POSICIONAR LA IMAGEN DENTRO DEL DIV 
+PUEDE SER:
+LEFT,RIGHT,TOP,BOTTOM,1EM,1PX.
+*/

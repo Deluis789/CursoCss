@@ -1,0 +1,17 @@
+*{
+    font-family: 'Lugrasimo', cursive;
+    font-weight: 150;
+    padding: 0px;
+    margin: 0px;
+    font-size: 40px;
+}
+.fixed{
+    background-color: aqua;
+    position: fixed;
+    margin-top: -100;   
+    
+}
+.texto{
+    padding-top: 90px;
+    margin-top: 100px;
+}

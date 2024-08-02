@@ -1,0 +1,50 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 150;
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+}
+/* .caja1{     ----PSEUDO CLASE HOVER---
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transition: all 1s, border .5s;
+    border: 3px solid red;
+}
+.caja1:hover{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    border-color: black;
+} */
+/* a:link{    --PSEUDO CLASE LINK------
+    color: red;  -->PAGINA QUE NO VISITASTE
+}
+a:visited{
+    color: green; --->PAGINAS QUE VISITASTE CAMBIA DE COLOR----
+} */
+/* .caja{          PSEUDO CLASE ACTIVE ->AL PRESIONAR UN CLICK CAMBIA DE EFECTO
+    width: 300px;
+    height: 300px;
+    background: cyan;
+    transition: all 1s;
+}
+.caja:active{
+    width: 800px;
+    background: lawngreen;
+} */
+input{    
+    /* PSEUDO CLASE FOCUS CON INPUT */
+    margin: 25px;
+    background: lightcoral;
+    transition: all 1s;
+}
+input:focus{
+    background: lightgoldenrodyellow;
+    padding: 25px;
+}
+input::selection{
+    color: #fff;
+    background: black;
+}

@@ -1,0 +1,92 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 150;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.responsive_ul{
+    display: none;
+}
+nav {
+    background-color: rgb(15, 82, 138);
+}
+.nav_li{
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+}
+.nav_li a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav_li i {
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+}
+.nav_li:hover{
+    color: rgb(49, 48, 48);
+}
+.nav_li:hover>a{
+    color: rgb(49, 48, 48);
+}
+@media screen and (max-width:541px){
+    .nav_ul{
+        display:none;
+    }
+    .nav{
+        height: 37px;
+        width: 100%;
+        background-color: rgb(15, 82, 138);
+    }
+    .responsive_ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+        background-color:rgb(37, 135, 214);
+    }
+    .responsive_li{
+        width: 100%;
+        padding: 20px 20px;
+        margin-top: 45px;
+    }
+    .responsive_li i{
+        box-sizing: border-box;
+        text-align: center;
+        margin-right: 5px;
+        width: 30px;
+        color: #016;
+    }
+    .responsive_li a{
+        color: #016;
+        text-decoration: none;
+    }
+    .nav_contener{
+        position: relative;
+        top: -1000px;
+        height: calc(100vh - 64px);
+        transform: all 1s;
+        z-index: 1;
+    }
+    .responsive_ul:hover > .nav_contener{
+        top: 0;
+    }
+
+}
+.botton{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(47, 120, 189);
+    margin-top: 0;
+    margin-bottom:30px;
+    padding-bottom: 10px;
+    z-index: 100;
+}
+.responsive_btn{
+    padding: 6px 0px;
+    text-align: right;
+    width: 100%;
+    font-size: 30px;
+}

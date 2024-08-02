@@ -1,0 +1,29 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 150;
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+}
+/* .contenedor div{
+    float: left;
+    padding: 20px;
+  
+}
+.primario{
+    background: red;
+    width: 70%;
+}
+.secundario{
+    background: yellow;
+    width: 30%;
+} */
+.cont{
+   width: 500px;
+   border: 2px solid green;
+}
+.cont img{
+    float:right;
+    width: 300px;
+    margin-right: 18px;
+}

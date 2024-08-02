@@ -1,0 +1,18 @@
+ *{
+    font-family: 'Lugrasimo', cursive;
+    font-weight: 150;
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+}
+h2{
+    background-color: aqua;
+    display: inline-block;
+    padding: 70px;
+    margin: 10px;
+    border-radius: 50px;
+    border: 5px solid blue;
+    box-shadow: 10px 30px 10px 2px #000;/*si repites dos veces se vuelve mas oscuro la sombra*/
+    text-shadow: 2px 2px 7px #2b0ece, 2px 2px 7px #2b0ece;/*si repites dos veces se vuelve mas oscuro la sombra*/
+    transform:rotate(45deg);
+    }

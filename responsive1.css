@@ -1,0 +1,31 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 150;
+    padding: 0px;
+    margin: 0px;
+    font-size: 35px;
+}
+.responsive{
+    background: #c4f;
+}
+@media screen and (min-width: 400px) and (max-width:650px){
+    .responsive{
+        background: green;
+    }
+}
+@media screen and (min-width:650px) and (max-width:800px)
+{
+    .responsive{
+        background: rgb(105, 179, 8);
+    }
+}
+@media screen and (min-width:800px) and (max-width: 1200px){
+    .responsive{
+        background: cyan;
+    }
+}
+@media screen and (min-width:1200px){
+    .responsive{
+        background: orange;
+    }
+}

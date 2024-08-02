@@ -1,0 +1,19 @@
+:root{
+    --color-verde:green;
+    --color-azul:blue;
+}
+body{
+    margin: 30px;
+}
+.caja1{
+    background: var(--color-verde);
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+.caja2{
+    background: var(--color-azul);
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
